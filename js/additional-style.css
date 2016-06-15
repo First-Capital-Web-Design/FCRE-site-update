@@ -1,0 +1,35 @@
+.logo{
+  background-image: url("https://github.com/First-Capital-Web-Design/FCRE-site-update/blob/gh-pages/images/logo-big-background.png?raw=true") !important;
+  background-size: 100% 100%;
+  background-position: center;
+  display: inline;
+  width: 280px;
+  height: 109px;
+}
+.logo_mobile{
+  background-image: url("https://github.com/First-Capital-Web-Design/FCRE-site-update/blob/gh-pages/images/logo-big-background.png?raw=true") !important;
+  background-size: 100% 100%;
+  background-position: center;
+  display: none;
+  width: 280px !important;
+  height: 109px;
+  margin-left: calc(50% - 140px);
+  margin-bottom: 50px;
+}
+@media (max-width: 1200px) {
+  .logo{
+    width: 175px;
+    height: 68px;
+  }
+}
+@media (max-width: 767px) {
+  .logo_mobile{
+    display: block;
+  }
+  .logo{
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+
+}

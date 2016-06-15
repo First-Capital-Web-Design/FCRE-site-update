@@ -27876,7 +27876,13 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .rd-navbar-static .rd-navbar-nav {
-  margin-left: 45px;
+  margin-left: calc(50% - 215px);
+  margin-top: 50px;
+  background-color: #d9d9d9;/*important-tag*/
+  padding: 10px;
+  padding-bottom: 0px;
+  box-shadow: 1px 1px 4px #546e7a, -70px 0 270px -60px #546e7a inset;
+  border-bottom: 1px solid orange;
 }
 
 @media (min-width: 1300px) {

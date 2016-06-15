@@ -1,0 +1,9 @@
+@media (min-width: 1200px) {
+  .rd-navbar-nav{
+    box-shadow: 1px 1px 4px #546e7a, -70px 0 270px -60px #546e7a inset;
+    background-color: #d9d9d9;/*important-tag*/
+  }
+  }
+  .page-header {
+    box-shadow: -5px -100px 250px -80px #546e7a inset;
+  }

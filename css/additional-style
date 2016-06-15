@@ -6,6 +6,14 @@
   width: 280px;
   height: 109px;
 }
+/*.logo_small{
+  background-image: url("https://github.com/First-Capital-Web-Design/FCRE-site-update/blob/gh-pages/images/logo-big-background.png?raw=true") !important;
+  background-size: 100% 100%;
+  background-position: center;
+  display: none;
+  width: 280px;
+  height: 109px;
+}*/
 .logo_mobile{
   background-image: url("https://github.com/First-Capital-Web-Design/FCRE-site-update/blob/gh-pages/images/logo-big-background.png?raw=true") !important;
   background-size: 100% 100%;
@@ -16,11 +24,13 @@
   margin-left: calc(50% - 140px);
   margin-bottom: 50px;
 }
+
 @media (max-width: 1200px) {
   .logo{
     width: 175px;
     height: 68px;
   }
+  .
 }
 @media (max-width: 767px) {
   .logo_mobile{
@@ -31,5 +41,17 @@
   }
 }
 @media (min-width: 1200px) {
-
+  .logo_scrolled{
+    width: 140px;
+    height: 54.5px;
+  }
+  .nav_static_change{
+    box-shadow: 1px 1px 4px #546e7a, -70px 0 270px -60px #546e7a inset;
+    margin-top: 0px;
+  }
+  .nav_change{
+    box-shadow: 0 0 0 transparent;
+    background-color: transparent;
+    margin-top: 0px;
+  }
 }

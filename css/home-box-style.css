@@ -7,3 +7,10 @@
   .page-header {
     box-shadow: -5px -100px 250px -80px #546e7a inset;
   }
+.panorama{
+  width: 100vw;
+  height: 25vw;
+  background-image: url("https://github.com/First-Capital-Web-Design/FCRE-site-update/blob/gh-pages/images/panorama.jpg?raw=true");
+  background-position: center;
+  background-size: 100vw 25vw;
+}

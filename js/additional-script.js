@@ -21,6 +21,20 @@ $(document).ready(function(){
       }
   });
 
+
+  if($(".income-fund").length){
+    $(".resp-tab-active").removeClass("resp-tab-active");
+    $(".resp-tab-content-active").css("display","none");
+    $(".resp-tab-content-active").removeClass("resp-tab-content-active");
+
+    $(".income-fund").parent().addClass("resp-tab-active");
+    $(".income-fund-text").addClass("resp-tab-content-active");
+    $(".income-fund-text").css("display","block");
+
+    console.log("hello");
+  }
+
+
 //   $(window).resize(function(){
 //       $('span').text(x += 1);
 //   });

@@ -954,7 +954,7 @@ $document.ready(function () {
     if (plugins.rdNavbar.attr("data-body-class")) {
       document.body.className += ' ' + plugins.rdNavbar.attr("data-body-class");
     }
-    //$(".rd-navbar-static").css({"background-color":"transparent"});
+    //$(".rd-navbar").css({"padding-top": "0"});
     //$(".rd-navbar-nav").css({"background-color":"pink"});
   }
 

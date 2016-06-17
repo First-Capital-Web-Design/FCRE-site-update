@@ -9,6 +9,7 @@ $(document).ready(function(){
           $(".rd-navbar-nav").addClass("nav_change");
           $(".rd-navbar-static").addClass("nav_static_change");
           $(".logo").addClass("logo_scrolled");
+          
           //$(".logo_scrolled").removeClass("logo");
           //$(".logo").css({"width" : "140px" , "height" : "54.5px"});
       } else {

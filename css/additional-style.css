@@ -26,6 +26,22 @@
   padding-top: 20px;
 }
 
+.rd-navbar-inner{
+  background-color: #d9d9d9 !important;
+  position: fixed !important;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+}
+
+
+
+.rd-navbar-fixed{
+  position: fixed !important;
+  top: 0;
+  left: 0;
+}
+
 .rd-navbar-static.rd-navbar--is-stuck .rd-navbar-inner, .rd-navbar-static.rd-navbar--is-clone .rd-navbar-inner, .rd-navbar-fullwidth.rd-navbar--is-stuck .rd-navbar-inner, .rd-navbar-fullwidth.rd-navbar--is-clone .rd-navbar-inner{
   padding-top: 8px;
 }

@@ -21,7 +21,8 @@
   left: 0px;
   top: 0px;
   width: 100vw;
-  background-color: #d9d9d9 !important;
+  background-color: #e6e6e6 !important;
+  box-shadow: 1px 1px 4px #546e7a, -70px 0 400px -60px #cccccc inset, 70px 0 400px -60px #cccccc inset !important;
   height: 70px;
   padding-top: 20px;
 }
@@ -44,6 +45,7 @@
 
 .rd-navbar-static.rd-navbar--is-stuck .rd-navbar-inner, .rd-navbar-static.rd-navbar--is-clone .rd-navbar-inner, .rd-navbar-fullwidth.rd-navbar--is-stuck .rd-navbar-inner, .rd-navbar-fullwidth.rd-navbar--is-clone .rd-navbar-inner{
   padding-top: 8px;
+  box-shadow: 1px 1px 4px #546e7a, -70px 0 400px -60px #cccccc inset, 70px 0 400px -60px #cccccc inset !important;
 }
 
 .rd-navbar-static .rd-navbar-inner, .rd-navbar-fullwidth .rd-navbar-inner{
@@ -106,7 +108,6 @@
 }
 
   .nav_static_change{
-    box-shadow: 1px 1px 4px #546e7a, -70px 0 400px -60px #546e7a inset, 70px 0 400px -60px #546e7a inset !important;
     background-color: #d9d9d9;/*important-tag*/
     height: 70px;
     -webkit-transition: height 2s;
